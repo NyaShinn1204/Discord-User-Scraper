@@ -19,7 +19,7 @@ func main() {
 	args := os.Args[1:]
 
 	if len(args) != 3 {
-		fmt.Println("Usage: go run user_scrape_go.go serverid channelid token")
+		fmt.Println("Usage: go run main.go <serverid> <channelid> <token>")
 		return
 	}
 
